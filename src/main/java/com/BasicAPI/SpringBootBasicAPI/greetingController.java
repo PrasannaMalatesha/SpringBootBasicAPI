@@ -12,6 +12,7 @@ public class greetingController {
     private Map<Long, String> greetings = new HashMap<>();
     private long idCounter = 1;
 
+
     @GetMapping("/hello")  // Handles GET requests to /api/greetings/hello
     public String sayHello() {
         return "Hello, Spring Boot!!";
